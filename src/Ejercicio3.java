@@ -8,7 +8,7 @@ public class Ejercicio3 {
         Scanner scanner = new Scanner(System.in);
         String[] fecha = scanner.nextLine().split("-");
         if (fecha[0].length() != 4 || fecha[1].length() != 2 || fecha[2].length() != 2) {
-            System.out.println("Formato de fecha incorrecto. Formato correcto: YYYY-DD-MM");
+            System.out.println("Formato de fecha incorrecto. Formato correcto: YYYY-MM-DD");
         } else {
             boolean fechaCorrecta = true;
 
